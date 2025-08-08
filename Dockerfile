@@ -1,21 +1,19 @@
-# Use a lightweight Node.js image
 FROM node:18-alpine
 
-# Set working directory inside the container
+# Set working directory inside container
 WORKDIR /app
 
-# Copy package.json & package-lock.json first (for better caching)
+# Copy package files & install dependencies
 COPY package*.json ./
+RUN npm install --production
 
-# Install only production dependencies
-RUN npm ci --only=production
+# Copy the rest of the app code
+COPY . .
 
-# Copy the backend source code
-COPY app ./app
-
-# Expose the app's port
+# Expose app port
 EXPOSE 3000
 
-# Start the app
+# Run the app
 CMD ["node", "app/server.js"]
+
 
