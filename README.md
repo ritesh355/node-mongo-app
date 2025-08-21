@@ -62,7 +62,7 @@ node-mongo-app/
 ```
 
 ---
-## For more detail : [hashnode] https://ritesh-devops.hashnode.dev/day-26-dockerfile-docker-compose-nodejs-mongodb
+## For more detail : [hashnode](https://ritesh-devops.hashnode.dev/day-26-dockerfile-docker-compose-nodejs-mongodb)
 
  
     
