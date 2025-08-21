@@ -4,10 +4,9 @@ This project demonstrates how to containerize a **Node.js + MongoDB application*
 It’s part of my **100 Days of DevOps Journey (Day 26)**.
 
 ---
+## 🗂️ Project Structure
 
-## 📂 Project Structure
-
-
+```
 node-mongo-app/
 ├── app/
 │   ├── server.js
@@ -15,6 +14,7 @@ node-mongo-app/
 ├── Dockerfile
 ├── docker-compose.yml
 ├── package.json
+```
 
 ---
 
