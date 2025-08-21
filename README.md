@@ -7,13 +7,6 @@ It’s part of my **100 Days of DevOps Journey (Day 26)**.
 
 ## 📂 Project Structure
 
-node-mongo-app/
-├── app/
-│   ├── server.js
-│   └── ...other files
-├── Dockerfile
-├── docker-compose.yml
-├── package.json
 
 ---
 
