@@ -64,7 +64,7 @@ node-mongo-app/
 ---
 
 ## For more detail
-
+go to my hashnode blog click here
 [hashnode](https://ritesh-devops.hashnode.dev/day-26-dockerfile-docker-compose-nodejs-mongodb)
 
 
