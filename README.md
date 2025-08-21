@@ -55,17 +55,18 @@ node-mongo-app/
 3.  Open in browser:
    ```bash
     http://localhost:3000
-```
+   ```
 4. Stop containers:
    ```bash
    docker-compose down
-```
+   ```
+
 ---
 
 ## For more detail
 
 [hashnode](https://ritesh-devops.hashnode.dev/day-26-dockerfile-docker-compose-nodejs-mongodb)
 
-----
+
 
     
